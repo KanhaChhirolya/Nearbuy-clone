@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/restaurent.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+   
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <style>
+        .slick-prev {
+        left: 69px;
+      z-index: 1;
+      height: 50px;
+      width: 80px;
+      margin-left: 25px;
+      /* margin-right: 600px; */
+      
+      
+  }
+  
+  .slick-prev:before, .slick-next:before {
+      font-family: 'slick';
+      font-size: 50px;
+      line-height: 1;
+      color: white;
+      opacity: 10;
+
+     
+  }
+  
+  .slick-next{
+      left: 900x;
+      z-index: 1;
+      height: 50px;
+      width: 80px;
+      margin-right: 100px;
+  }
+  
+  .slider div{
+   
+    margin: 0 7px 0 7px;
+    border-radius: 10px;
+   
+  }
+
+  .slider img{
+        border-radius: 10px;
+        width: 1240px;
+  }
+  .autoplay img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+     width: 100%;
+    padding-right: 15px;
+     padding-left: 15px;
+  }
+    </style>
+</head>
+<body>
+
+  <div id="parent">
+    <div>
+        <i class="fa-solid fa-location-dot"></i>
+        <span class="location">Select Location</span>
+        <span class="box">New Delhi</span>
+        <a href="#" class="hire">We're hiring</a>
+        <a href="#" class="black">How it Works</a>
+        <a href="#" class="black">List Your Business</a>
+        <a href="#" class="black">My Account</a>
+    </div>
+</div>
+<div id="img">
+    <div style="display: flex;">
+        <a href="/index.html"><img src="./images/logo.png" alt=""></a>
+        <input type="text" id="searchbar" style="color: 1px solid gray;" placeholder="Search reastaurant,spa,event">
+        <a href="search.html"><button id="searchbtn">Search</button></a>
+    </div>
+</div>
+
+
+  
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+    <div class="upper-section">
+       <a href="./buffetdeals.html">
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-/636ce20122156b000b884b63.png" alt="ERROE">
+          <p>Buffet Deals</p>
+          </div>
+       </a>
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-/5f7d8150b7b01c000b8d348c.png" alt="">
+            <a href="premium_restaurants.html"><p>Premium</p>
+              <P>Restaurent</P>
+          </div></a>
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-/5f7c375cb7b01c000b8d3118.png" alt="">
+           <a href="#"> <p>Deals on Nightlife</p></a>
+        </div>
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-/5f7d81ceb7b01c000b8d3492.png" alt="">
+            <a href="#"><p>Set Menu Deals</p></a>
+        </div>
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-/5fa225165cc6f2000bcb6dbb.png" alt="">
+           <a href="deals.html"> <p>All Deals</p></a>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+    </div>
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+
+    <div class="autoplay">
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60374bd000106d000bde80e6.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60337a9b00106d000bde77ff.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60266a4279600c000b33f266.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/6026887f79600c000b33f357.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60266a2e79600c000b33f264.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/6026885000106d000b6a6148.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/604a00f979600c000c8c1b1e.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/6020feb279600c000b33e51a.png" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/6142c81d1e2731000ba37e20.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/634d23c022b317000b5a2fcd.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/634aa77922156b000bc5fa5e.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60f930521e2731000b9bdf2d.jpg" alt="">
+     </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    
+    
+    <div class="upper-section-2-slider-2">
+
+        <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b506ab3c621000b5f5e89.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b504f3b031b000b774d6d.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b505cb3c621000b5f5e88.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b50613b031b000b774d6f.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b50573b031b000b774d6e.jpg" alt=""></div>
+    
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    
+  </div>
+
+    </div>
+    
+    <div class="upper-section-2-slider-2">
+
+        <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd77722b317000b618a4c.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd7658db992000b7a1855.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd7718db992000b7a1856.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd77d8db992000b7a1857.jpg" alt=""></div>
+      
+    
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    
+  </div>
+
+    </div>
+
+    <h4 class="Dine-At-5-Star-Hotels">Dine At 5 Star Hotels</h4>
+
+    <div class="Dine-At-5-Star-Hotels-after">
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6138b58a40e9df000bfc8972.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6138b67140e9df000bfc8977.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6138b7d840e9df000bfc897d.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6138b8011e2731000b3c2b92.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6138b8581e2731000b3c2b96.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/636366e522b317000bd17b56.jpg" alt="">
+        </div>
+
+    </div>
+
+    <div class="upper-section-2-slider-2">
+
+        <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd78a22b317000b618a4e.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd78f8db992000b7a185a.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd78522b317000b618a4d.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd7818db992000b7a1858.jpg" alt=""></div>
+      
+    
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    
+  </div>
+
+    </div>
+
+    
+    <h2>Top Rated Restaurants</h2>
+    <div  class="Top-Rated-Restaurants">
+        <div>
+          <img src="./images/country suits.png" alt="">
+        </div>
+        <div>
+          <img src="./images/warhouse cafe.png" alt="">
+        </div>
+        <div>
+          <img src="./images/mad.png" alt="">
+        </div>
+        <div>
+          <img src="./images/dutvfree.png" alt="">
+        </div>
+        <!-- <div>
+          <img src="./images/4thpng.png" alt="">
+        </div> -->
+    </div>
+    <!-- <div class="rated-restaurent">
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/5f6476c0b7b01c000b8cfed9.jpg" alt="">
+        <hr>
+        <h3>Lord Of The Drinks Chamber</h3>
+        <p>Rajouri Garden</p>
+        <p>LORD OF THE DRINKS CHAMBER, RAJOURI GARDEN, NEW DELHI</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/6114a79a1e2731000b7036ee.jpg" alt="">
+        <hr>
+        <h3>Pirates Of Grill</h3>
+        <p>Connaught Place </p>
+        <p>Buffet Offers, Drinks with Starters Offers</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/60f151811e2731000b81c69c.jpg" alt="">
+        <hr>
+        <h3>Pirates Of Grill</h3>
+        <p>Connaught Place </p>
+        <p>Buffet Offers, Drinks with Starters Offers</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/5fdcaf2b5cc6f2000b960679.jpg" alt="">
+        <hr>
+        <h3>Pirates Of Grill</h3>
+        <p>Connaught Place </p>
+        <p>Buffet Offers, Drinks with Starters Offers</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/61c41a491e2731000ba4280d.jpg" alt="">
+        <hr>
+        <h3>Pirates Of Grill</h3>
+        <p>Connaught Place </p>
+        <p>Buffet Offers, Drinks with Starters Offers</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+    </div> -->
+
+    <h2>Buzzing Hotspots</h2>
+    <div class="autoplay">
+          <div>
+            <img src="./images/aerocity.png" alt="">
+          </div>
+          <div>
+            <img src="./images/clubroad.png" alt="">
+          </div>
+          <div>
+            <img src="./images/dwarka.png" alt="">
+          </div>
+          <div>
+            <img src="./images/epicuria.png" alt="">
+          </div>
+          <div>
+            <img src="./images/IGI.png" alt="">
+          </div>
+          <div>
+            <img src="./images/Janpath.png" alt="">
+          </div>
+          <div>
+            <img src="./images/Maharaajroad.png" alt="">
+          </div>
+          <div>
+            <img src="./images/rajouri.png" alt="">
+          </div>
+          <div>
+            <img src="./images/epicuria.png" alt="">
+          </div>
+          <div>
+            <img src="./images/IGI.png" alt="">
+          </div>
+    </div>
+
+    <h2 style="margin-bottom: 10px;">Newly Added Restaurants !</h2>
+    <div  class="Top-Rated-Restaurants">
+      <div>
+        <img src="./images/nostalgia.png" alt="">
+      </div>
+      <div>
+        <img src="./images/josh.png" alt="">
+      </div>
+      <div>
+        <img src="./images/AAA.png" alt="">
+      </div>
+      <div>
+        <img src="./images/khubani.png" alt="">
+      </div>
+    </div>
+    <!-- <div class="rated-restaurent">
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/5f6476c0b7b01c000b8cfed9.jpg" alt="">
+        <hr>
+        <h3>Lord Of The Drinks Chamber</h3>
+        <p>Rajouri Garden</p>
+        <p>LORD OF THE DRINKS CHAMBER, RAJOURI GARDEN, NEW DELHI</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/6114a79a1e2731000b7036ee.jpg" alt="">
+        <hr>
+        <h3>Pirates Of Grill</h3>
+        <p>Connaught Place </p>
+        <p>Buffet Offers, Drinks with Starters Offers</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/60f151811e2731000b81c69c.jpg" alt="">
+        <hr>
+        <h3>Pirates Of Grill</h3>
+        <p>Connaught Place </p>
+        <p>Buffet Offers, Drinks with Starters Offers</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+      <div class="Top-Rated-Restaurants">
+        <img src="https://img4.nbstatic.in/tr:w-700/5fdcaf2b5cc6f2000b960679.jpg" alt="">
+        <hr>
+        <h3>Pirates Of Grill</h3>
+        <p>Connaught Place </p>
+        <p>Buffet Offers, Drinks with Starters Offers</p>
+        <hr>
+        <p>Rs. 4198</p>
+        <p>2099</p>
+        <p>25% OFF</p>
+      </div>
+    
+    </div>
+    -->
+    <h2 style="margin-bottom: 10px;">Promo Codes For More Savings</h2>
+    <div class="promo-code">
+      <div class="promo">
+        <img src="https://img4.nbstatic.in/tr:w-700/6299bae13b031b000ba75db4.jpeg" alt="">
+        <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+        <p>Valid till 31 Dec 2023</p>
+      </div>
+      <div class="promo">
+        <img src="https://img4.nbstatic.in/tr:w-700/6294bbe1b3c621000b366b85.jpeg" alt="">
+        <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+        <p>Valid till 02 Feb 2023</p>
+      </div>
+      <div class="promo">
+        <img src="https://img4.nbstatic.in/tr:w-700/636039fc22156b000cb5df05.jpeg" alt="">
+        <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+        <p>Valid till 31 Dec 2023</p>
+      </div>
+    </div>
+    <div class="btn">
+      <button>VIEW ALL OFFERS</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+
+    <script type="text/javascript">
+        $('.autoplay').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        });
+    </script>
+   
+</html>
+<script src="./scripts/restaurent.js"></script>

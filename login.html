@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login.html</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="parent">
+        <form action="" method="post" id="formData"></form>
+            <div id="left">
+                <img src="IMG_20230119_152249.png" alt="">
+                <p>Explore exciting deals &<br>offers around you</p>
+            </div>
+            <div id="right">
+                <h1>Login / Sign up</h1>
+            <div >
+                <input type="number" id="mobile" placeholder="Mobile Number">
+            </div>
+                <a href="login_otp.html"><button id="submit">NEXT</button></a>
+
+    </div>
+</body>
+</html>
+<script>
+    let formData = document.getElementById("formData");
+    let userData = JSON.parse(localStorage.getItem("Register-list")) || [];
+    formData.addEventListener("submit",submitUser);
+    
+    function submitUser(e){
+        e.preventDefault();
+
+        let mobile = document.getElementById("mobile").value;
+        let otp = generateOtp()
+
+        
+        let user = {mobile,otp}
+        console.log(user)
+        userData.push(user)
+
+        localStorage.setItem("Register-list",JSON.stringify(userData))
+    }
+    const generateOtp = () => {
+        let otp = "";
+
+        for(let i=0;i<6;i++){
+            otp += Math.floor(Math.random() * 10);
+        }
+        // alert(otp) ;
+        
+    }
+    // console.log(generateOtp());
+    
+    // function otpAlert(){
+    //     a = setTimeout(isAlert,2000);
+    // }
+    // function isAlert(){
+    //     alert(generateOtp())
+    // }
+    
+</script>

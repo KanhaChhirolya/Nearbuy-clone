@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./styles/restaurent.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+   
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <style>
+        .slick-prev {
+        left: 69px;
+      z-index: 1;
+      height: 50px;
+      width: 80px;
+      margin-left: 25px;
+      /* margin-right: 600px; */
+      
+      
+  }
+  
+  .slick-prev:before, .slick-next:before {
+      font-family: 'slick';
+      font-size: 50px;
+      line-height: 1;
+      color: white;
+      opacity: 10;
+
+     
+  }
+  
+  .slick-next{
+      left: 900x;
+      z-index: 1;
+      height: 50px;
+      width: 80px;
+      margin-right: 100px;
+  }
+  
+  .slider div{
+   
+    margin: 0 7px 0 7px;
+    border-radius: 10px;
+   
+  }
+
+  .slider img{
+        border-radius: 10px;
+        width: 1240px;
+  }
+  .autoplay img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+     width: 100%;
+    padding-right: 15px;
+     padding-left: 15px;
+  }
+  .upper-section div p{ 
+    text-decoration: none;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fff
+}
+/* upper section css */
+.upper-section{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+   }
+
+.upper-section div{
+    padding: 30px 8px;
+    /* border: 2px solid red; */
+}
+.upper-section div:hover{
+    /* background-color: #CFD8DC; */
+   margin-top: 6px;
+   margin-bottom: 6px;
+   
+}
+
+
+.upper-section img {
+    width: 100%;
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.upper-section P{
+    text-align: center;
+    color: #333;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.upper-section>div:hover{
+    /* box-sizing:; */
+    color: aqua;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+/* upper section 1 slider 1*/
+
+
+/* .upper-section-1-slider-1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.upper-section-1-slider-1 div{
+    justify-content: space-evenly;
+}
+
+.upper-section-1-slider-1 img{
+    width: 100%;
+    height: 150px;
+    width: 150px;
+    gap: 40px;
+} */
+
+
+
+/* upper section 2 slider 2*/
+
+.upper-section-2-slider-2{
+   width: 100%;
+   display: flex;
+   margin-top: 50px;
+}
+.swiper{
+    width: 100%;
+    }
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 14px;
+}
+
+/* upper section 3 slider 3*/
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    background-color: grey;
+    color:#fff;
+    height: 55px;
+    aspect-ratio: auto 50 / 55;
+    width: 50px;
+    border-radius: 30px;
+}
+.swiper .swiper-pagination{
+    color: #f15249;
+}
+
+.Dine-At-5-Star-Hotels{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    /* text-align: center */
+
+}
+
+.Dine-At-5-Star-Hotels-after{
+    width: 90%;
+    display: flex;
+   margin: auto;
+   gap: 15px;
+}
+
+.Dine-At-5-Star-Hotels-after img{
+    width: 100%;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-left: 30px;
+  
+}
+.logo img{
+  width:100%;
+  height:100%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+/* Top-Rated-Restaurants */
+
+/* .rated-restaurent{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+    margin: auto;
+}
+
+.rated-restaurent img{
+    width: 95%;
+}
+.rated-restaurent div{
+  
+} */
+/* .Top-Rated-Restaurants{
+    width: 90%;
+    display: f;
+    justify-content: space-evenly;
+    margin: auto;
+} */
+
+.Top-Rated-Restaurants{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.Top-Rated-Restaurants img{
+   width: 100%;
+}
+.promo-code{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 0px 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.promo{
+    border: 1px dashed gray;
+}
+.promo-code img{
+    width: 100%;
+}
+.promo-code p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    color: #757575;
+}
+button{
+   margin-left: 600px;
+   margin-bottom: 50px;
+   border: 0px;
+   padding: 18px 9px 18px 9px;
+   border-radius: 10px;
+   background-color:#BDBDBD;
+   color: #616161;
+   margin-top: 20px;
+}
+.upper-section div{
+  text-decoration: none;
+}
+#Hair {
+
+display:flex;
+
+gap: 15px;
+
+margin-bottom: 30px;
+
+height: 50%;
+margin-top: 50px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+#Hair>div>img {
+width: 100%;
+height: 100%;
+border: radius 50px;
+}
+#masa {
+
+display: grid;
+ grid-template-columns: repeat(5, 1fr); 
+gap: 15px;
+
+margin-bottom: 30px;
+margin: 20px;
+}
+#masa>div {
+text-align: center;
+width: 100%;
+} 
+.upper-section a{
+  text-decoration: none;
+}
+#parent{
+    width: 100%;
+    display: flex;
+}
+.fa-solid{
+    padding-left: 25px;
+    color: #999999;
+}
+.location{
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+.box{
+    width: auto;
+    height: auto;
+    margin: 0 0 0 3px;
+    padding: 4px 30px 4px 18px;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+    background: 0% 0%;
+}
+.hire{
+    height: 34px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #EF524E;
+    height: 34px;
+    width: 90px;
+    padding: 8px 12px 8px 12px;
+    padding-left: 480px;
+    margin-left: 125px;
+}
+.black{
+    height: 34px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #333333;
+    height: 34px;
+    width: 90px;
+    padding: 8px 12px 8px 12px;
+}
+#parent{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #ffffff;
+    height: 37px;
+    width: 100%;
+    padding: 0 0px 0 0px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+}
+#searchbar{
+    margin-top: 7.5px;
+    height: 15px;
+    margin-left: 35px;
+}
+#img {
+    margin: 1 em 0;
+}
+#img input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 1 px solid gray;
+    padding: 1em 0.3em;
+    margin-left: 450px;
+    border-radius: 2px;
+}
+#img input:focus{
+    border-bottom-color: #d3d2dc;
+}
+#img button{
+    padding: 1em 2em;
+    background-color: #EF524E;
+    height: 45px;
+    margin-left: 5px;
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+    margin-top: 7.5px;
+    cursor: pointer;
+}
+#img img {
+    width: 160px;
+    padding-left: 27px;
+    height: 70px;
+}
+    </style>
+</head>
+<body>
+  <div id="parent">
+    <div>
+        <i class="fa-solid fa-location-dot"></i>
+        <span class="location">Select Location</span>
+        <span class="box">New Delhi</span>
+        <a href="#" class="hire">We're hiring</a>
+        <a href="#" class="black">How it Works</a>
+        <a href="#" class="black">List Your Business</a>
+        <a href="#" class="black">My Account</a>
+    </div>
+</div>
+<div id="img">
+    <div style="display: flex;">
+        <a href="/index.html"><img src="/IMG_20230119_152249.png" alt=""></a>
+        <input type="text" id="searchbar" style="color: 1px solid gray;" placeholder="Search reastaurant,spa,event">
+        <button id="searchbtn">Search</button>
+    </div>
+</div>
+    <hr style="height:1px;border-width:0;color:rgb(224, 124, 124);background-color:rgb(245, 176, 176)">
+    <div class="upper-section">
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-/5ed9143c4cedfd000b21d66c.png" alt="ERROR">
+          <a href="#"><p>Hair Deals</p></a>
+          </div>
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-/5f7d8150b7b01c000b8d348c.png" alt="">
+            <a href="#"><p>Waxing Deals</p></a>
+
+          </div>
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-/5ed914604cedfd000b21d66e.png" alt="">
+           <a href="#"> <p> facil Deals</p></a>
+        </div>
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-/5fe0e011c4d55d000b8a2073.png" alt="">
+            <a href="#"><p>Hair Deals</p></a>
+        </div>
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-/5fe0dfe45cc6f2000b960e2d.png" alt="">
+           <a href="#"> <p> Hair spaDeals</p></a>
+        </div>
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-/5fe0e03cc4d55d000b8a2075.png" alt="">
+         <a href="#"> <p> Head and toe packedge</p></a>
+       </div>
+        <div>
+         <img src="https://img4.nbstatic.in/tr:w-/5fe0dfe45cc6f2000b960e2d.png" alt="">
+        <a href="#"> <p> Hair  treatment Deals</p></a>
+         </div>
+         <div>
+        <img src="https://img4.nbstatic.in/tr:w-/5fe0e0735cc6f2000b960e32.png" alt="">
+       <a href="#"> <p> manicure deals</p></a>
+       </div>
+       <div>
+       <img src="https://img4.nbstatic.in/tr:w-/5ed914e54cedfd000b21d672.png" alt="">
+         <a href="#"> <p> ALL seloon Deals</p></a>
+</div>
+        
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+    </div>
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+    <h1>Top brand </h1>
+
+    <div class="autoplay">
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/6167f38940e9df000bfbec8d.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60336d5d79600c000ba6ab73.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60f92fec1e2731000b9bdf2c.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/602279b300106d000bb28d06.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60264f4100106d000b6a5fb7.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60266a1879600c000b33f262.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/604a03413eb5b6000b55c765.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/6020feb279600c000b33e51a.png" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/604a03413eb5b6000b55c765.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/634d23c022b317000b5a2fcd.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/634aa77922156b000bc5fa5e.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://img4.nbstatic.in/tr:w-350/60f930521e2731000b9bdf2d.jpg" alt="">
+     </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    
+    
+    <div class="upper-section-2-slider-2">
+
+        <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b52293b031b000b774d81.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b53b53b031b000b774d8e.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b5233b3c621000b5f5e95.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b52073b031b000b774d80.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b5233b3c621000b5f5e95.jpg" alt=""></div>
+    
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    
+  </div>
+
+    </div>
+    
+    <div class="upper-section-2-slider-2">
+
+      
+
+    </div>
+
+    <h1 class="offers for womens">Offer for womens</h1>
+
+    <div class="Dine-At-5-Star-Hotels-after">
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7add40e9df000b0f5c64.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7aad40e9df000b0f5c63.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7a7440e9df000b0f5c5f.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe79f940e9df000b0f5c5d.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7a3d1e2731000b9be427.jpg" alt="">
+        </div>
+
+        <!-- <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/636366e522b317000bd17b56.jpg" alt="">
+        </div> -->
+
+    </div>
+    <h1 class="offers for mens">Offer for mens</h1>
+
+    <div class="Dine-At-5-Star-Hotels-after">
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7e8d40e9df000b0f5c7c.jpg" alt="">
+        </div>
+
+        <div
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7e261e2731000b9be43a.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7d051e2731000b9be436.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7bcb40e9df000b0f5c6b.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/60fe7b9f40e9df000b0f5c6a.jpg" alt="">
+        </div>
+
+        <!-- <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/636366e522b317000bd17b56.jpg" alt="">
+        </div> -->
+
+    </div>
+
+    <div class="upper-section-2-slider-2">
+
+        <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd9aa22b317000b618a68.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd99b8db992000b7a1871.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd9a222b317000b618a67.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/63bfd9a68db992000b7a1872.jpg" alt=""></div>
+      
+    
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    
+  </div>
+
+    </div>
+
+    
+    <h2>Top-Rated-salon</h2>
+    <div  class="Top-Rated-Restaurants">
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-700/5c3432e0ee3588000d918041.jpg" alt="">
+          <p>Jawed Habib Hair & Beauty</p>
+        </div>
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-700/5c17410f5f1503000e5a03e0.jpg" alt="">
+          <p>Salon Nirvana By SS</p>
+        </div>
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-700/611236261e2731000b703493.jpg" alt="">
+          <p>Te Amo Unisex Salon</p>
+        </div>
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-700/5edb5a304cedfd000b21d8b4.jpg" alt="">
+        </div>
+      </div>
+      <div class ="logo">
+        <img src="https://img4.nbstatic.in/tr:w-2800/611b71ed40e9df000b81097f.jpg" alt="">
+      </div>
+       
+   
+      <div id="Hair">
+
+
+          <div>
+              <img src="https://img4.nbstatic.in/tr:w-350/6100b3f640e9df000b0f5f33.jpg"
+                  alt="">
+              <h3>Hair Straightening</h3>
+              <p>77 Offers</p>
+          </div>
+          <div>
+              <img src="https://img4.nbstatic.in/tr:w-350/6100b4261e2731000b9be704.jpg"
+                  alt="">
+                <h3>Keratin Treatment</h3>
+                <p>66 Offers</p>
+          </div>
+        </div>
+    </div>
+
+
+    <h2>Trending Collections</h2>
+
+        <div id="masa">
+
+
+            <div>
+                <img src="https://img4.nbstatic.in/tr:w-350/60faa3d940e9df000b0f597e.jpg"
+                    alt="">
+                
+            </div>
+            <div>
+                <img src="https://img4.nbstatic.in/tr:w-350/60faa4391e2731000b9be141.jpg"
+                    alt="">
+                
+            </div>
+
+            <div>
+                <img src="https://img4.nbstatic.in/tr:w-350/60faa50140e9df000b0f5989.jpg"
+                    alt="">
+                
+            </div>
+            <div>
+                <img src="https://img4.nbstatic.in/tr:w-350/60faa4c240e9df000b0f5987.jpg"
+                    alt="">
+               
+            </div>
+            <div>
+                <img src="https://img4.nbstatic.in/tr:w-350/60faa48740e9df000b0f5986.jpg"
+                    alt="">
+               
+            </div>
+
+
+        </div>
+
+        <hr style="height:1px;border-width:0;color:rgb(218, 4, 4);background-color:rgb(240, 209, 209)">
+        <h1>Popular Locations For Salons</h1>
+    
+        <div class="autoplay">
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/5f16def1d60180000decb00b.png" alt="">
+            <!-- <p>hause-khas</p> -->
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/598416d5590801000d29ba99.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6385d85c22156b000c42f706.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/584ffd09c9e77c000d174e6f.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6386ee3322b317000b6217ab.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6385e79822156b000c42f754.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6385e79822156b000c42f754.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/58da285d5908010012a17d27.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/5ba0d8834cedfd000d6de5ca.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/6385df5722b317000b6211fc.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/5b0651844cedfd000c7fcf73.jpg" alt="">
+         </div>
+         <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/5ba0d8834cedfd000d6de5ca.jpg" alt="">
+         </div>
+        </div>
+    
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        
+        
+        
+        <!-- <div class="upper-section-2-slider-2"> -->
+    
+            <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b52293b031b000b774d81.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b53b53b031b000b774d8e.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b5233b3c621000b5f5e95.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b52073b031b000b774d80.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://img4.nbstatic.in/tr:w-2800/627b5233b3c621000b5f5e95.jpg" alt=""></div>
+        
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        
+      </div>
+    
+        </div>
+        <h2>Top-Rated-salon</h2>
+        <div  class="Top-Rated-Restaurants">
+            <div>
+              <img src="https://img4.nbstatic.in/tr:w-700/5c3432e0ee3588000d918041.jpg" alt="">
+              <h1>Jawed Habib Hair & Beauty</h1>
+            </div>
+            <div>
+              <img src="https://img4.nbstatic.in/tr:w-700/5c17410f5f1503000e5a03e0.jpg" alt="">
+              <h1>Salon Nirvana By SS</h1>
+            </div>
+            <div>
+              <img src="https://img4.nbstatic.in/tr:w-700/611236261e2731000b703493.jpg" alt="">
+              <h1>Te Amo Unisex Salon</h1>
+            </div>
+            <div>
+              <img src="https://img4.nbstatic.in/tr:w-700/5edb5a304cedfd000b21d8b4.jpg" alt="">
+              <h1>Hair Planet</h1>
+            </div>
+          </div>
+    
+          <h2>Offers On Hair Treatment</h2>
+    
+
+
+      <div class ="logo">
+        <img src="https://img4.nbstatic.in/tr:w-2800/611b71ed40e9df000b81097f.jpg" alt="">
+      </div>
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+
+    <script type="text/javascript">
+        $('.autoplay').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        });
+    </script>
+   
+</html>
+<script src="./scripts/restaurent.js"></script>

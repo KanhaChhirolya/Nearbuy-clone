@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fff
+}
+/* upper section css */
+.upper-section{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+   }
+
+   .upper-section a{
+    text-decoration: none;
+   }
+
+.upper-section div{
+    padding: 30px 8px;
+    /* border: 2px solid red; */
+}
+.upper-section div:hover{
+    /* background-color: #CFD8DC; */
+   margin-top: 6px;
+   margin-bottom: 6px;
+   
+}
+
+
+.upper-section img {
+    width: 100%;
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.upper-section P{
+    text-align: center;
+    color: #333;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.upper-section>div:hover{
+    /* box-sizing:; */
+    color: aqua;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+/* upper section 1 slider 1*/
+
+
+/* .upper-section-1-slider-1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.upper-section-1-slider-1 div{
+    justify-content: space-evenly;
+}
+
+.upper-section-1-slider-1 img{
+    width: 100%;
+    height: 150px;
+    width: 150px;
+    gap: 40px;
+} */
+
+
+
+/* upper section 2 slider 2*/
+
+.upper-section-2-slider-2{
+   width: 100%;
+   display: flex;
+   margin-top: 50px;
+}
+.swiper{
+    width: 100%;
+    }
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 14px;
+}
+
+/* upper section 3 slider 3*/
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    background-color: grey;
+    color:#fff;
+    height: 55px;
+    aspect-ratio: auto 50 / 55;
+    width: 50px;
+    border-radius: 30px;
+}
+.swiper .swiper-pagination{
+    color: #f15249;
+}
+
+.Dine-At-5-Star-Hotels{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    /* text-align: center */
+
+}
+
+.Dine-At-5-Star-Hotels-after{
+    width: 90%;
+    display: flex;
+   margin: auto;
+   gap: 15px;
+}
+
+.Dine-At-5-Star-Hotels-after img{
+    width: 100%;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-left: 30px;
+  
+}
+
+/* Top-Rated-Restaurants */
+
+/* .rated-restaurent{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+    margin: auto;
+}
+
+.rated-restaurent img{
+    width: 95%;
+}
+.rated-restaurent div{
+  
+} */
+/* .Top-Rated-Restaurants{
+    width: 90%;
+    display: f;
+    justify-content: space-evenly;
+    margin: auto;
+} */
+
+.Top-Rated-Restaurants{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.Top-Rated-Restaurants img{
+   width: 100%;
+}
+.promo-code{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 0px 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.promo{
+    border: 1px dashed gray;
+}
+.promo-code img{
+    width: 100%;
+}
+.promo-code p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    color: #757575;
+}
+button{
+   margin-left: 600px;
+   margin-bottom: 50px;
+   border: 0px;
+   padding: 18px 9px 18px 9px;
+   border-radius: 10px;
+   background-color:#BDBDBD;
+   color: #616161;
+   margin-top: 20px;
+}
+
+#parent{
+    width: 100%;
+    display: flex;
+}
+.fa-solid{
+    padding-left: 25px;
+    color: #999999;
+}
+.location{
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+.box{
+    width: auto;
+    height: auto;
+    margin: 0 0 0 3px;
+    padding: 4px 30px 4px 18px;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+    background: 0% 0%;
+}
+.hire{
+    height: 34px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #EF524E;
+    height: 34px;
+    width: 90px;
+    padding: 8px 12px 8px 12px;
+    padding-left: 480px;
+    margin-left: 125px;
+}
+.black{
+    height: 34px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #333333;
+    height: 34px;
+    width: 90px;
+    padding: 8px 12px 8px 12px;
+}
+#parent{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #ffffff;
+    height: 37px;
+    width: 100%;
+    padding: 0 0px 0 0px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+}
+#searchbar{
+    margin-top: 7.5px;
+    height: 15px;
+    margin-left: 35px;
+}
+#img {
+    margin: 1 em 0;
+}
+#img input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 1 px solid gray;
+    padding: 1em 0.3em;
+    margin-left: 450px;
+    border-radius: 2px;
+}
+#img input:focus{
+    border-bottom-color: #d3d2dc;
+}
+#img button{
+    padding: 1em 2em;
+    background-color: #EF524E;
+    height: 45px;
+    margin-left: 5px;
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+    margin-top: 7.5px;
+    cursor: pointer;
+}
+#img img {
+    width: 160px;
+    padding-left: 27px;
+    height: 70px;
+}

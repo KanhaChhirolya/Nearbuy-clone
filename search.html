@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>search.html</title>
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="search_style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search restaurants, spa, events,things to do..."
+        />
+        <button id="search">Search</button>
+      </div>
+      <p id="p1" style="font-weight: 400;padding-right: 19px;"><i class="fa-solid fa-thumbs-up" style="color: rgb(130, 127, 127);"></i>Recommended Searches</p>
+      <div id="buttons">
+        
+        <button class="button-value" onclick="filterProduct('Warehouse Cafe')">
+            Warehouse Cafe
+        </button>
+        <button class="button-value" onclick="filterProduct('Open House Cafe')">
+            Open House Cafe
+        </button>
+        <button class="button-value" onclick="filterProduct('Lord of the Drinks')">
+            Lord of the Drinks
+        </button>
+        <button class="button-value" onclick="filterProduct('The Illusion Lounge & Bar')">
+            The Illusion Lounge & Bar
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
+    
+    <script src="search_script.js"></script>
+  </body>
+</html>
+
